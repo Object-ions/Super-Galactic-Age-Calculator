@@ -24,4 +24,9 @@ export default class AgeCalculator {
     let marsAge = this.EarthAge() * 1.88;
     return marsAge;
   }
+
+  JupiterAge() {
+    let jupiterAge = this.EarthAge() * 11.86;
+    return jupiterAge;
+  }
 }
