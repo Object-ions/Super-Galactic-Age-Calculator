@@ -9,4 +9,9 @@ describe('ageCalculator', () => {
     expect(ageCalculator.currentYear).toEqual(2023);
     expect(ageCalculator.birthYear).toEqual(1992);
   });
+
+  test('should correctly calculate age on earth', () => {
+    let earthAge = ageCalculator.EarthAge();
+    expect(earthAge).toEqual(32);
+  });
 });
