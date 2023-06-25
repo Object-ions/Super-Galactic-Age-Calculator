@@ -20,8 +20,13 @@ describe('ageCalculator', () => {
     expect(mercuryAge).toBeCloseTo(7.44);
   });
 
-  test('should correctly calculate age on Venus. Venus age is 0.24 Earth years.', () => {
+  test('should correctly calculate age on Venus. Venus age is 0.62 Earth years.', () => {
     let venusAge = ageCalculator.VenusAge();
     expect(venusAge).toBeCloseTo(19.22);
+  });
+
+  test('should correctly calculate age on Mars. Mars age is 1.88 Earth years.', () => {
+    let marsAge = ageCalculator.MarsAge();
+    expect(marsAge).toBeCloseTo(58.28);
   });
 });
