@@ -3,4 +3,9 @@ export default class TimePassed {
     this.currentAge = currentAge;
     this.pastAge = pastAge;
   }
+
+  EarthPassed() {
+    let earthPassed = this.currentAge - this.pastAge;
+    return earthPassed;
+  }
 }

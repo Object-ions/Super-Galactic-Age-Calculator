@@ -13,7 +13,7 @@ describe('TimePassed', () => {
   });
 
   test('should correctly calculate how much time passed in earth years', () => {
-    let earthYearsPassed = timePassed();
-    expect(timePassed.pastAge).toEqual(8);
+    let earthYearsPassed = timePassed.EarthPassed();
+    expect(earthYearsPassed).toEqual(8);
   });
 });
