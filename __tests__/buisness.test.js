@@ -29,4 +29,9 @@ describe('ageCalculator', () => {
     let marsAge = ageCalculator.MarsAge();
     expect(marsAge).toBeCloseTo(58.28);
   });
+
+  test('should correctly calculate age on Jupiter. Jupiter age is 11.86 Earth years.', () => {
+    let jupiterAge = ageCalculator.JupiterAge();
+    expect(jupiterAge).toBeCloseTo(367.66);
+  });
 });
