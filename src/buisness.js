@@ -9,6 +9,11 @@ export default class AgeCalculator {
     let earthAge = this.currentYear - this.birthYear;
     return earthAge;
   }
+
+  MercuryAge() {
+    let mercuryAge = this.EarthAge() * 0.24;
+    return mercuryAge;
+  }
 }
 
 // Triangle.prototype.checkType = function () {

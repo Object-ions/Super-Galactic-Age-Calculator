@@ -17,6 +17,6 @@ describe('ageCalculator', () => {
 
   test('should correctly calculate age on mercury. Mercury age is 0.24 Earth years.', () => {
     let mercuryAge = ageCalculator.MercuryAge();
-    expect(mercuryAge).toBeCloseTo(7.4);
+    expect(mercuryAge).toBeCloseTo(7.44);
   });
 });
