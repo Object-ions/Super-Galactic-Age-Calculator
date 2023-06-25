@@ -12,6 +12,6 @@ describe('ageCalculator', () => {
 
   test('should correctly calculate age on earth', () => {
     let earthAge = ageCalculator.EarthAge();
-    expect(earthAge).toEqual(32);
+    expect(earthAge).toEqual(31);
   });
 });

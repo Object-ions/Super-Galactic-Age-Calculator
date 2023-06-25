@@ -4,6 +4,11 @@ export default class AgeCalculator {
     this.birthYear = birthYear;
     let earthYear = this.currentYear - this.birthYear;
   }
+
+  EarthAge() {
+    let earthAge = this.currentYear - this.birthYear;
+    return earthAge;
+  }
 }
 
 // Triangle.prototype.checkType = function () {
