@@ -1,9 +1,9 @@
 export default class AgeCalculator {
-  // constructor(currentYear, birthYear) {
-  //   this.currentYear = currentYear;
-  //   this.birthYear = birthYear;
-  //   let earthYear = this.currentYear - this.birthYear;
-  // }
+  constructor(currentYear, birthYear) {
+    this.currentYear = currentYear;
+    this.birthYear = birthYear;
+    let earthYear = this.currentYear - this.birthYear;
+  }
 }
 
 // Triangle.prototype.checkType = function () {
