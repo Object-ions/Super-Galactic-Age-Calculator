@@ -19,4 +19,9 @@ export default class AgeCalculator {
     let venusAge = this.EarthAge() * 0.62;
     return venusAge;
   }
+
+  MarsAge() {
+    let marsAge = this.EarthAge() * 1.88;
+    return marsAge;
+  }
 }
