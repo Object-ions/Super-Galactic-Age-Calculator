@@ -10,13 +10,18 @@ describe('ageCalculator', () => {
     expect(ageCalculator.birthYear).toEqual(1992);
   });
 
-  test('should correctly calculate age on earth', () => {
+  test('should correctly calculate age on Earth', () => {
     let earthAge = ageCalculator.EarthAge();
     expect(earthAge).toEqual(31);
   });
 
-  test('should correctly calculate age on mercury. Mercury age is 0.24 Earth years.', () => {
+  test('should correctly calculate age on Mercury. Mercury age is 0.24 Earth years.', () => {
     let mercuryAge = ageCalculator.MercuryAge();
     expect(mercuryAge).toBeCloseTo(7.44);
+  });
+
+  test('should correctly calculate age on Venus. Venus age is 0.24 Earth years.', () => {
+    let venusAge = ageCalculator.VenusAge();
+    expect(venusAge).toBeCloseTo(19.22);
   });
 });
