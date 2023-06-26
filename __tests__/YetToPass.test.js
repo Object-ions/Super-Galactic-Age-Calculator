@@ -18,7 +18,7 @@ describe('YetToPass', () => {
   });
 
   test('should calculate how much time yet to pass in Earth years', () => {
-    let mercuryFuture = yetToPass.mMercuryFuture();
+    let mercuryFuture = yetToPass.MercuryFuture();
     expect(mercuryFuture).toBeCloseTo(20.83);
   });
 });
