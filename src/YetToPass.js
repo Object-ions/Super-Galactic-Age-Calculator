@@ -3,4 +3,9 @@ export default class YetToPass {
     this.currentAge = currentAge;
     this.futureAge = futureAge;
   }
+
+  EarthFuture() {
+    let earthFuture = this.futureAge - this.currentAge;
+    return earthFuture;
+  }
 }
