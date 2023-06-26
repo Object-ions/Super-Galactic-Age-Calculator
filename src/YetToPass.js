@@ -1,5 +1,6 @@
 export default class YetToPass {
-  constructor(currentAge, futureAge){
+  constructor(currentAge, futureAge) {
     this.currentAge = currentAge;
     this.futureAge = futureAge;
   }
+}
