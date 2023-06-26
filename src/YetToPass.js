@@ -23,4 +23,9 @@ export default class YetToPass {
     const marsFuture = parseFloat(((this.futureAge - this.currentAge) / 1.88).toFixed(2));
     return marsFuture;
   }
+
+  JupiterFuture(){
+    const jupiterFuture = parseFloat(((this.futureAge - this.currentAge) / 11.86).toFixed(2));
+    return jupiterFuture;
+  }
 }
