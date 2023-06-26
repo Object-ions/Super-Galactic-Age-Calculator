@@ -16,4 +16,9 @@ describe('YetToPass', () => {
     let earthFuture = yetToPass.EarthFuture();
     expect(earthFuture).toEqual(5);
   });
+
+  test('should calculate how much time yet to pass in Earth years', () => {
+    let mercuryFuture = yetToPass.mMercuryFuture();
+    expect(mercuryFuture).toBeCloseTo(20.83);
+  });
 });
