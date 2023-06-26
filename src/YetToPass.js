@@ -12,5 +12,10 @@ export default class YetToPass {
   MercuryFuture(){
     const mercuryFuture = parseFloat(((this.futureAge - this.currentAge) / 0.24).toFixed(2));
     return mercuryFuture;
-}
+  }
+
+  VenusFuture(){
+    const venusFuture = parseFloat(((this.futureAge - this.currentAge) / 0.62).toFixed(2));
+    return venusFuture;
+  }
 }
