@@ -17,4 +17,9 @@ export default class TimePassed {
     let venusPassed = parseFloat(((this.currentAge - this.pastAge) / 0.62).toFixed(2));
     return venusPassed;
   }
+
+  MarsPassed() {
+    let marsPassed = parseFloat(((this.currentAge - this.pastAge) / 1.88).toFixed(2));
+    return marsPassed;
+  }
 }
