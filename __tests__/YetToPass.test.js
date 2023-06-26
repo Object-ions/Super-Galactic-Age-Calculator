@@ -1,4 +1,4 @@
-import YetToPass from '../src/YetToPass.js';
+import YetToPass from '../src/js/YetToPass.js';
 
 describe('YetToPass', () => {
   let yetToPass;

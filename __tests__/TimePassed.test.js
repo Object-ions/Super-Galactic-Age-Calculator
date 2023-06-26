@@ -1,4 +1,4 @@
-import TimePassed from '../src/TimePassed.js';
+import TimePassed from '../src/js/TimePassed.js';
 
 describe('TimePassed', () => {
   let timePassed;
