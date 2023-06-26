@@ -4,16 +4,21 @@ describe('TimePassed', () => {
   let timePassed;
   
   beforeEach(() => {
-    timePassed = new TimePassed(31, 23);
+    timePassed = new TimePassed(56, 43);
   });
 
   test('should correctly create a time passed object with two instances', () => {
-    expect(timePassed.currentAge).toEqual(31);
-    expect(timePassed.pastAge).toEqual(23);
+    expect(timePassed.currentAge).toEqual(56);
+    expect(timePassed.pastAge).toEqual(43);
   });
 
-  test('should correctly calculate how much time passed in earth years', () => {
+  test('should correctly calculate how much time passed in Earth years', () => {
     let earthYearsPassed = timePassed.EarthPassed();
-    expect(earthYearsPassed).toEqual(8);
+    expect(earthYearsPassed).toEqual(13);
+  });
+
+  test('should correctly calculate how much time passed in Mercury years', () => {
+    let mercuryYearsPassed = timePassed.MercuryPassed();
+    expect(mercuryYearsPassed).toBeCloseTo(54.17);
   });
 });

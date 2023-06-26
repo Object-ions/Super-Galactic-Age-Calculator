@@ -8,4 +8,9 @@ export default class TimePassed {
     let earthPassed = this.currentAge - this.pastAge;
     return earthPassed;
   }
+
+  MercuryPassed() {
+    let mercuryPassed = parseFloat(((this.currentAge - this.pastAge) / 0.24).toFixed(2));
+    return mercuryPassed;
+  }
 }
