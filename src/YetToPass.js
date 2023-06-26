@@ -18,4 +18,9 @@ export default class YetToPass {
     const venusFuture = parseFloat(((this.futureAge - this.currentAge) / 0.62).toFixed(2));
     return venusFuture;
   }
+
+  MarsFuture(){
+    const marsFuture = parseFloat(((this.futureAge - this.currentAge) / 1.88).toFixed(2));
+    return marsFuture;
+  }
 }
