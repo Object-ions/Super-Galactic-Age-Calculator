@@ -24,6 +24,6 @@ describe('TimePassed', () => {
 
   test('should correctly calculate how much time passed in Venus years', () => {
     let venusYearsPassed = timePassed.VenusPassed();
-    expect(venusYearsPassed).toBeCloseTo(20.96);
+    expect(venusYearsPassed).toBeCloseTo(20.97);
   });
 });
