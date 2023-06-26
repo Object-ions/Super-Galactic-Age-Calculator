@@ -26,4 +26,9 @@ describe('YetToPass', () => {
     let venusFuture = yetToPass.VenusFuture();
     expect(venusFuture).toBeCloseTo(8.06);
   });
+
+  test('should calculate how much time yet to pass in Mars years', () => {
+    let marsFuture = yetToPass.MarsFuture();
+    expect(marsFuture).toBeCloseTo(2.65);
+  });
 });
