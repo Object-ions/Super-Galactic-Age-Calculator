@@ -17,8 +17,13 @@ describe('YetToPass', () => {
     expect(earthFuture).toEqual(5);
   });
 
-  test('should calculate how much time yet to pass in Earth years', () => {
+  test('should calculate how much time yet to pass in Mercury years', () => {
     let mercuryFuture = yetToPass.MercuryFuture();
     expect(mercuryFuture).toBeCloseTo(20.83);
+  });
+
+  test('should calculate how much time yet to pass in Venus years', () => {
+    let venusFuture = yetToPass.VenusFuture();
+    expect(venusFuture).toBeCloseTo(8.06);
   });
 });
