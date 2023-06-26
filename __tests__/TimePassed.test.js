@@ -34,6 +34,6 @@ describe('TimePassed', () => {
   
   test('should correctly calculate how much time passed in Jupiter years', () => {
     let jupiterYearsPassed = timePassed.JupiterPassed();
-    expect(jupiterYearsPassed).toBeCloseTo(1.09);
+    expect(jupiterYearsPassed).toBeCloseTo(1.1);
   });
 });

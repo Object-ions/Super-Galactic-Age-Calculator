@@ -22,4 +22,9 @@ export default class TimePassed {
     let marsPassed = parseFloat(((this.currentAge - this.pastAge) / 1.88).toFixed(2));
     return marsPassed;
   }
+
+  JupiterPassed() {
+    let jupiterPassed = parseFloat(((this.currentAge - this.pastAge) / 11.86).toFixed(2));
+    return jupiterPassed;
+  }
 }
